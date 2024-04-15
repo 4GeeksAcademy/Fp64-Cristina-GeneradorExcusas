@@ -19,7 +19,7 @@ function generarArgumento() {
     whenSeleccionado +
     ".";
 
-  document.getElementoPorId("argumento").textContent = argumento;
+  document.getElementById("argumento").textContent = argumento;
 }
 
 window.onload = generarArgumento;
